@@ -1,0 +1,13 @@
+version: '3.3'
+
+services:
+
+  oracle:
+    image: gvenzl/oracle-xe:18.4.0-slim
+    container_name: oracledatabase
+    ports:
+      - 1521:1521
+    environment:
+      ORACLE_PASSWORD: root
+    volumes:
+      - /opt/oracle/oradata
