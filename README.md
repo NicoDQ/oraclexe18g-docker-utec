@@ -16,7 +16,7 @@ La url de conexion es: jdbc:oracle:thin:@localhost:1521/XEPDB1
 
 -Luego también se puede conectar con ese usuario: dbuser y pass dbuser y crear tablas por ejemplo: crear_tablas.sql
 
-## Siguientes veces
+## Siguientes veces:
 Para stopear el contenedor:
 sudo docker-compose stop
 
